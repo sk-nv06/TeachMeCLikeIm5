@@ -78,7 +78,6 @@ int main()
 
     printf("The increment between ptr and p is %ld\n", p-ptr);
 
-    // BUG: Dereferencing pointer after arithmetic - accessing invalid memory!
     printf("Value at modified p location: %d\n", *p);
 
     return 0;

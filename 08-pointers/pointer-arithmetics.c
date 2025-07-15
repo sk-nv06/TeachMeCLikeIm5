@@ -78,6 +78,8 @@ int main()
 
     printf("The increment between ptr and p is %ld\n", p-ptr);
 
+    printf("Value at modified p location: %d\n", *p);
+
     return 0;
 }
 /*
